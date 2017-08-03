@@ -1,0 +1,19 @@
+//
+//  BookShelf-prefix.pch
+//  BookShelf
+//
+//  Created by Ashley Han on 28/7/2017.
+//  Copyright © 2017 simpletask. All rights reserved.
+//
+
+#ifndef BookShelf_prefix_pch
+#define BookShelf_prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define UIColorForRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0x00FF00) >> 8))/255.0 blue:((float)(rgbValue & 0x0000FF))/255.0 alpha:1.0]
+
+#define UIColorForRGBA(rgbValue, alphaValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0x00FF00) >> 8))/255.0 blue:((float)(rgbValue & 0x0000FF))/255.0 alpha:alphaValue]
+
+#endif /* BookShelf_prefix_pch */
