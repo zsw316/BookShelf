@@ -1,5 +1,5 @@
 # BookShelf
-Favorite the books that you like by scanning the barcode 
+Put favorite books in your bookshelf simply by scanning the barcode
 
 
 # Main functions 
