@@ -62,7 +62,7 @@
 #pragma mark - Navigation
 - (void)initNavigation
 {
-    self.navigationItem.title = @"Favorite Authors";
+    self.navigationItem.title = @"My Favorite Authors";
 }
 
 

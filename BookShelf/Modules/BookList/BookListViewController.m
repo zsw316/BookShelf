@@ -46,7 +46,7 @@ typedef NS_ENUM(NSUInteger, BookListMode) {
 
 - (void)initNavigation
 {
-    self.navigationItem.title =@"My books";
+    self.navigationItem.title =@"My Favorite Books";
     
     self.edgesForExtendedLayout = UIRectEdgeNone;
     

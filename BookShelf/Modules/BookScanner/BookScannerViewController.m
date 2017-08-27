@@ -161,7 +161,7 @@ const CGFloat tipLabelHeight = 44.0f;
     self.tipLabel.backgroundColor = [UIColor clearColor];
     self.tipLabel.font = [UIFont systemFontOfSize:12.0f];
     self.tipLabel.textAlignment = NSTextAlignmentCenter;
-    self.tipLabel.text = @"将条形码放入输入框内，即可自动扫描";
+    self.tipLabel.text = @"Scan barcodes to query online books";
     [self.view addSubview:self.tipLabel];
 }
 
